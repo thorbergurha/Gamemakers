@@ -61,7 +61,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\player.cs" />
+    <Compile Include="Assets\Scripts\playerScript.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/tobbergur/Documents/Git/Gamemaker/First/Gamemakers/first/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -275,14 +275,14 @@
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
+    <Reference Include="ZiosThemes">
+      <HintPath>/Users/tobbergur/Documents/Git/Gamemaker/First/Gamemakers/first/Assets/@Themes/ZiosThemes.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/tobbergur/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>/Users/tobbergur/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="ZiosThemes">
-      <HintPath>/Users/tobbergur/Documents/Git/Gamemaker/First/Gamemakers/first/Assets/@Themes/ZiosThemes.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>

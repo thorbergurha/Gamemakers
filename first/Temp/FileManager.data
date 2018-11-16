@@ -1,7 +1,10 @@
 (DS_Store)
 =$
 
++/Assets
+
 (csproj)
+=$
 Assembly-CSharp
 (sln)
 first
@@ -11,6 +14,9 @@ FileManager
 (bakert)
 +/ProcessJobs
 e4d7cdea9e7b674007a994e68f178ef6
+(backup)
+=$/Temp/__Backupscenes
+0
 (unitytheme)
 =$/Assets/@Themes
 Classy
@@ -1173,10 +1179,13 @@ UnityEditor.BuildPlayerWindow.styles
 UnityEditor.EditorStyles.s_Current
 =$/Assets/@Themes/Skinsets/Simplicity/+WindowBrushed
 WindowBrushed#
+(mat)
+=$/Assets/Material
+Capsule
+Plane
 (unity)
 =$/Assets/Scenes
 SampleScene
-first
 (cs)
 =$/Assets/Scripts
-player
+playerScript

@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: f97b89de4092e4d7987de378aac33a24
+  productGUID: ca12c09f8c1e94afbb0972bd3caa57a4
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -650,8 +650,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 795a9df5-5265-4141-ab34-cd08396d2446
-  projectName: first
+  cloudProjectId: 9008a33b-9423-47cf-9a1a-2646624971d8
+  projectName: first (1)
   organizationId: thorbergur-haraldsson
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
