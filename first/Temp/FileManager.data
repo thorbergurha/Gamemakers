@@ -171,11 +171,6 @@ Orkney-Medium
 Oswald-Bold
 Oswald-Light
 Oswald-Regular
-=$/Assets/@Themes/Fonts/PTSans
-PTSans-Web-Bold
-PTSans-Web-BoldItalic
-PTSans-Web-Italic
-PTSans-Web-Regular
 =$/Assets/@Themes/Fonts/Paprika
 Paprika-Regular
 =$/Assets/@Themes/Fonts/Passion One
@@ -202,6 +197,11 @@ PixelOperatorSC-Bold
 PixelOperatorSC
 =$/Assets/@Themes/Fonts/Pointfree
 Pointfree
+=$/Assets/@Themes/Fonts/PTSans
+PTSans-Web-Bold
+PTSans-Web-BoldItalic
+PTSans-Web-Italic
+PTSans-Web-Regular
 =$/Assets/@Themes/Fonts/Raleway
 Raleway-Black
 Raleway-BlackItalic
@@ -421,8 +421,6 @@ OFL
 =$/Assets/@Themes/Fonts/Oswald/.Data
 FONTLOG
 OFL
-=$/Assets/@Themes/Fonts/PTSans/.Data
-OFL
 =$/Assets/@Themes/Fonts/Paprika/.Data
 FONTLOG
 OFL
@@ -435,6 +433,8 @@ Attribution
 LICENSE
 =$/Assets/@Themes/Fonts/Pointfree/.Data
 UNLICENSE
+=$/Assets/@Themes/Fonts/PTSans/.Data
+OFL
 =$/Assets/@Themes/Fonts/Raleway/.Data
 FONTLOG
 OFL
@@ -505,9 +505,9 @@ SquaresBoldFree
 (AUTHORS)
 =$/Assets/@Themes/Fonts/Liberation Mono/.Data
 
-(COPYING)
-
 (ChangeLog)
+
+(COPYING)
 
 (pdf)
 =$/Assets/@Themes/Fonts/SFPixelate/.Data
@@ -552,9 +552,6 @@ Space
 Terminal
 (png)
 =$/Assets/@Themes/Iconsets/Default
-AS Badge Delete
-AS Badge Move
-AS Badge New
 Animation.AddEvent
 Animation.AddKeyframe
 Animation.NextKey
@@ -562,6 +559,9 @@ Animation.Play
 Animation.PrevKey
 Animation.Record
 AnimationWrapModeMenu
+AS Badge Delete
+AS Badge Move
+AS Badge New
 Avatar Icon
 AvatarPivot
 BodyPartPicker
@@ -577,19 +577,25 @@ CollabPull
 CollabPush
 ColorPicker.CycleColor
 ColorPicker.CycleSlider
+console.warnicon
+console.warnicon.sml
 CustomSorting
 DotFill
 DotFrame
 DotFrameDotted
 DotSelection
 EditCollider
+eyeDropper.Large
 Favorite
 FilterByLabel
 FilterByType
 Folder Icon
+greenLight
+lightRim
 Mirror
 MoveTool on
 MoveTool
+orangeLight
 PauseButton Anim
 PauseButton On
 PauseButton
@@ -599,6 +605,7 @@ PlayButton
 PlayButtonProfile Anim
 PlayButtonProfile On
 PlayButtonProfile
+playLoopOff
 PreTextureAlpha
 PreTextureMipMapHigh
 PreTextureMipMapLow
@@ -610,6 +617,8 @@ RectTool On
 RectTool
 RectTransformBlueprint
 RectTransformRaw
+redLight
+renderdoc
 RotateTool On
 RotateTool
 ScaleTool On
@@ -621,13 +630,13 @@ SpeedScale
 StepButton Anim
 StepButton On
 StepButton
+Toolbar Minus
+Toolbar Plus More
+Toolbar Plus
 ToolHandleCenter
 ToolHandleGlobal
 ToolHandleLocal
 ToolHandlePivot
-Toolbar Minus
-Toolbar Plus More
-Toolbar Plus
 TreeEditor.Trash
 UnityEditor.HierarchyWindow
 UnityLogo
@@ -657,15 +666,6 @@ WelcomeScreen.UnityForumLogo
 WelcomeScreen.VideoTutLogo
 _Help
 _Popup
-console.warnicon
-console.warnicon.sml
-eyeDropper.Large
-greenLight
-lightRim
-orangeLight
-playLoopOff
-redLight
-renderdoc
 =$/Assets/@Themes/Iconsets/Simplicity
 Animation.Record
 Avatar Icon
@@ -696,13 +696,13 @@ ScaleTool
 StepButton Anim
 StepButton On
 StepButton
+Toolbar Minus
+Toolbar Plus More
+Toolbar Plus
 ToolHandleCenter
 ToolHandleGlobal
 ToolHandleLocal
 ToolHandlePivot
-Toolbar Minus
-Toolbar Plus More
-Toolbar Plus
 UnityEditor.HierarchyWindow
 UnityLogo
 ViewToolMove On
@@ -755,13 +755,13 @@ _Popup
 #StepButton Anim
 #StepButton On
 #StepButton
+#Toolbar Minus
+#Toolbar Plus More
+#Toolbar Plus
 #ToolHandleCenter
 #ToolHandleGlobal
 #ToolHandleLocal
 #ToolHandlePivot
-#Toolbar Minus
-#Toolbar Plus More
-#Toolbar Plus
 #UnityEditor.HierarchyWindow
 #UnityLogo
 #ViewToolMove On
@@ -1183,9 +1183,13 @@ WindowBrushed#
 =$/Assets/Material
 Capsule
 Plane
+(prefab)
+=$/Assets/Prefab
+Cube
 (unity)
 =$/Assets/Scenes
 SampleScene
 (cs)
 =$/Assets/Scripts
-playerScript
+CameraControllercs
+CharacterControllercs
