@@ -55,6 +55,8 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraControllercs.cs" />
      <Compile Include="Assets\Scripts\CharacterControllercs.cs" />
+     <Compile Include="Assets\Scripts\DestroyOnCollision.cs" />
+     <Compile Include="Assets\Scripts\GunController.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Þorbergur Haraldsson/Documents/gamemakers/Gamemakers/first/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

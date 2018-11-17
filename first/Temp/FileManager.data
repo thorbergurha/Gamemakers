@@ -17,13 +17,17 @@ e4d7cdea9e7b674007a994e68f178ef6
 (backup)
 =$/Temp/__Backupscenes
 0
+(jpg)
+=$/Assets
+grass_grass_0116_01
+(asset)
+New Terrain
++/@Themes
+Undo
 (unitytheme)
-=$/Assets/@Themes
 Classy
 Default
 Simplicity
-(asset)
-Undo
 (dll)
 ZiosThemes
 (ttf)
@@ -1180,12 +1184,15 @@ UnityEditor.EditorStyles.s_Current
 =$/Assets/@Themes/Skinsets/Simplicity/+WindowBrushed
 WindowBrushed#
 (mat)
-=$/Assets/Material
-Capsule
-Plane
+=$/Assets/Materials
+Black
+grass_grass_0116_01
+Green
+Red
 (prefab)
 =$/Assets/Prefab
-Cube
+Bullet
+Player
 (unity)
 =$/Assets/Scenes
 SampleScene
@@ -1193,3 +1200,5 @@ SampleScene
 =$/Assets/Scripts
 CameraControllercs
 CharacterControllercs
+DestroyOnCollision
+GunController
